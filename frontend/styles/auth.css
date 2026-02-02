@@ -1,0 +1,115 @@
+/* 로그인, 회원가입 */
+.auth-page {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 393px;
+  height: 130px;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  width: 100%;
+  max-width: 569px;
+  box-sizing: border-box;
+}
+
+input {
+  height: 101px;
+  background-color: #324183;
+  color: #ffffff;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 2px solid #2A3771;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 24px;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+button {
+  height: 101px;
+  border-radius: 5px;
+  background-color: #6196FE;
+  color: #ffffff;
+  font-size: 35px;
+  border: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+a {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
+
+input:focus {
+  background-color: #2A3771;
+  color: #929CCA;
+}
+
+button:focus {
+  background-color: #1B5AD8;
+  color: #E8E8E8;
+}
+
+a:focus {
+  color: #e8e8e8
+}
+
+/* signup.html */
+
+.signup-logo {
+  max-width: 315px;
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+label {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.signup-input {
+  max-height: 81px;
+  padding-left: 24px;
+  margin-bottom: 40px;
+}
+
+.signup-input::placeholder {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.signup-button {
+  max-height: 837px;
+  margin: 0;
+}

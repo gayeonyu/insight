@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>INSIGHT</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/test.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+    <script type="module" src="./scripts/pages/result.js"></script>
+    <script src="./scripts/pages/nav.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a><img class="nav-icon" src="./assets/icons/검색.svg"></a>
+        <a href="index.html"><img class="nav-logo" src="./assets/icons/로고.svg"></a>
+        <a href="#" id="mypage-btn"><img class="nav-icon" src="./assets/icons/마이페이지.svg"></a>
+      </nav>
+    </header>
+
+    <section class="result-section">
+      <h5 class="bold">당신은...</h5>
+      
+      <div class="result-wrapper">
+        <h3 class="result-title black"></h3>
+        <p class="result-content medium"></p>
+      </div>
+
+      <div class="test-button">
+        <h4 class="bold">테스트 공유하기</h4>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+/* index.html */
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 56px;
+}
+
+.banner-wrapper, .banner {
+  max-width: 1144px;
+  height: 352px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-size: cover;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 48px;
+  padding-bottom: 32px;
+}
+
+.banner-click {
+  text-decoration: none;
+}
+
+.banner-title, .banner-text {
+  color: #fff;
+}
+
+.banner-title {
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.banner-text {
+  font-size: 20px;
+  margin: 0;
+}
+
+.test-section {
+  justify-content: center;
+}

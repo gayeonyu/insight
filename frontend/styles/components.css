@@ -1,0 +1,221 @@
+/* 버튼, 모달, 카드 등 재사용 컴포넌트 */
+
+/* 로딩 */
+.loading {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #F3F4FF;
+  /*border-top: 5px; solid #6196FE;*/
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 10000;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 좋아요 */
+/* 부모 요소에 position: relative 있음 (entrance-thumbnail) */
+.heart {
+  width: 60px;
+  height: 50px;
+  color: #6196FE;
+  font-size: 80px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.heart > img {
+  width: 60px;
+}
+
+/* 인기순 태그 */
+.tags {
+  background-color: #011B89;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 4px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tags > img {
+  max-width: 18px;
+  width: 100%;
+}
+
+.tags > h4 {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* 추천 검색어 키워드 */
+.recommend {
+  display: flex;
+  gap: 24px;
+}
+
+.recommend-button {
+  height: 80px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #2A3771;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 24px;
+}
+
+/* 테스트 리스트 */
+.test-section {
+  display: flex;
+}
+
+.test-wrapper {
+  width: 1144px;
+}
+
+.test-title {
+  width: 1144px;
+  height: 36px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.test-title > h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.test-list {
+  width: 1144px;
+  margin-bottom: 56px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.test {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.test-thumbnail {
+  width: 256px;
+  height: 336px;
+  width: 100%;
+  height: 336px;
+}
+
+.test-thumbnail > img {
+  border-radius: 10px;
+}
+
+.test > h4 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+
+.test-button {
+  width: 480px;
+  height: 110px;
+  background-color: #2A3771;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #2A3771;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-button > h4 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.test-button:hover, .test-button:active {
+  color: #E8E8E8;
+  background-color: #1B5AD8;
+}
+
+.test-button > h4:hover {
+  color: #e8e8e8;
+}
+
+/* result */
+.result-section {
+  margin-top: 56px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-wrapper {
+  width: 680px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  padding: 56px 88px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-title, .result-content {
+  color: #fff;
+}
+
+.result-title {
+  font-size: 80px;
+  margin-bottom: 48px;
+}
+
+.result-content {
+  font-size: 40px;
+}
+
+/* 에러 */
+.error-section {
+  margin-top: 104px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-section > h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.error-section > img {
+  width: 400px;
+  height: 302px;
+}

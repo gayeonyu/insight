@@ -1,0 +1,79 @@
+.mypage-section {
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myaccount-wrapper {
+  width: 1144px;
+  height: 384px;
+  background-color: #2A3771;
+  border-radius: 25px;
+  padding: 67px 104px;
+  margin-top: 56px;
+  display: flex;
+  gap: 72px;
+  align-items: center;
+}
+
+.photo {
+  width: 250px;
+  background: none;
+  border: none;
+}
+
+.information {
+  color: #fff;
+}
+
+.information > h3, .test-title > h3 {
+  font-size: 50px;
+}
+
+.information > h4 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.count-button-wrapper {
+  width: 420px;
+  display: flex;
+}
+
+.count-button {
+  width: 194px;
+  height: 84px;
+  background-color: #C2DCFF;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  margin-right: 32px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.count-button > img {
+  width: 50px;
+  height: 50px;
+}
+
+.count {
+  color: #000;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.test-section {
+  justify-content: center;
+}
+
+.test-button {
+  width: 560px;
+  height: 160px;
+  margin-bottom: 100px;
+}

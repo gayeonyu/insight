@@ -1,0 +1,11 @@
+.test-section {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-title > h3 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}

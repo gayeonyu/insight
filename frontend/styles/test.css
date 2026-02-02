@@ -1,0 +1,97 @@
+/* test 입장 화면 */
+.entrance-section {
+  height: 640px;
+  margin: 48px auto 72px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entrance-thumbnail {
+  width: 480px;
+  height: 528px;
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../assests/images/145.PNG");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 40px 40px 56px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.entrance-text {
+  color: #fff;
+}
+
+.entrance-text > h2 {
+  font-size: 50px;
+}
+
+.entrance-text > p {
+  font-size: 25px;
+}
+
+/* 테스트 진행 화면 */
+.test-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-wrapper {
+  width: 896px;
+  height: 304px;
+  padding: 80px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  border: 3px dashed #fff;
+  border-radius: 25px;
+}
+
+.test-text {
+  color: #fff;
+  font-size: 35px;
+}
+
+.answer-wrapper {
+  width: 896px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.answer {
+  height: 124px;
+  background-color: #38488D;
+  border: 3px solid #fff;
+  border-radius: 25px;
+}
+
+.answer:hover, .answer:active {
+  background-color: #1B5AD8;
+}
+
+/* result */
+.result-section > h5 {
+  width: 680px;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+}
