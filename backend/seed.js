@@ -29,7 +29,7 @@ const seed = async() => {
       isPublished: true,
     });
 
-    // 질문 생성 I N T J
+    // 질문 생성
     const q1 = await Question.create({
       testId: test._id,
       text: '1. 사람들과 함께 있으면 에너지가 충전된다.',
